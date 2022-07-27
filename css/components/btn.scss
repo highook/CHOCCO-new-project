@@ -1,0 +1,19 @@
+.btn {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 21px 40px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+    
+ 
+    &--theme--white {
+        background: #fff;
+        color: #0b4d3c;
+    }
+
+    &:hover {
+        color: #fff;
+        background: #0b4d3c;
+    }
+}
