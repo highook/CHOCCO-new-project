@@ -55,11 +55,17 @@ img {
   max-width: 100%; }
 
 .hero {
-  background: url("/img/decor/bars.png") left 84% center no-repeat, url("/img/decor/leaft.png") right bottom no-repeat;
+  background: url("../img/decor/bars.png") left 84% center no-repeat, url("../img/decor/leaft.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
   min-height: 650px;
-  color: #fff; }
+  color: #fff;
+  position: relative; }
+  .hero::before {
+    position: absolute;
+    content: url("../img/decor/corner-leaf.png");
+    bottom: -40px;
+    left: 2%; }
 
 .hero__container {
   display: flex;
