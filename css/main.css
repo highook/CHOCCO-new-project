@@ -9,7 +9,8 @@ body {
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: relative; }
+  position: relative;
+  color: #000; }
 
 .wrapper {
   position: relative;
@@ -55,7 +56,7 @@ img {
   max-width: 100%; }
 
 .hero {
-  background: url("../img/decor/bars.png") left 84% center no-repeat, url("../img/decor/leaft.png") right bottom no-repeat;
+  background: url("/img/decor/big-leaf.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
   min-height: 650px;
@@ -63,16 +64,22 @@ img {
   position: relative; }
   .hero::before {
     position: absolute;
-    content: url("../img/decor/corner-leaf.png");
     bottom: -40px;
-    left: 2%; }
+    left: 2%;
+    content: url("/img/decor/corner-leaf.png"); }
+  .hero::after {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    content: url("/img/decor/Group-list.png"); }
 
 .hero__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 0 45px; }
+  padding: 24px 0 45px;
+  background: url("/img/decor/bars.png") right center/50% auto no-repeat; }
 
 .hero__title-section {
   width: 46%;
@@ -159,5 +166,66 @@ img {
   .btn:hover {
     color: #fff;
     background: #0b4d3c; }
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000; }
+
+.headline {
+  text-align: center;
+  margin-bottom: 49px; }
+
+.headline__title {
+  margin-bottom: 25px; }
+
+.headline__subtitle {
+  padding: 0 24%; }
+
+.benefits {
+  display: flex; }
+
+.benefits__item {
+  flex: 1;
+  margin: 0 3%; }
+  .benefits__item:first-child {
+    margin-left: 0; }
+  .benefits__item:last-child {
+    margin-right: 0; }
+
+.benefit {
+  text-align: center; }
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 126px;
+  height: 126px;
+  position: relative;
+  background: #F2F5F4;
+  border-radius: 50%;
+  overflow: hidden; }
+
+.benefit__icon {
+  width: 75px;
+  height: 73px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.benefit__title {
+  font-size: 27px;
+  font-weight: bold;
+  color: #000000; }
 
 /*# sourceMappingURL=main.css.map */
