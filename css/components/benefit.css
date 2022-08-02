@@ -1,0 +1,31 @@
+.benefit {
+  text-align: center; }
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 126px;
+  height: 126px;
+  position: relative;
+  background: #F2F5F4;
+  border-radius: 50%;
+  overflow: hidden; }
+
+.benefit__icon {
+  width: 70px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.benefit__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.benefit__title {
+  font-size: 27px;
+  font-weight: bold;
+  color: #000000; }
+
+/*# sourceMappingURL=benefit.css.map */

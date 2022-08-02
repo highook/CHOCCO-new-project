@@ -1,9 +1,7 @@
-$containerWidth: 940px;
-$baseFontSize: 18px;
-
-//colors
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
+$containerWidth: 940px;
+$baseFontSize: 18px;
 
 //normalaize
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
@@ -22,6 +20,8 @@ $darkGreen: #0b4d3c;
 @import "components/headline";
 @import "components/benefits";
 @import "components/benefit";
+@import "components/reviews__display";
+@import "components/interective-avatar";
 
 
 

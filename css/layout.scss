@@ -1,9 +1,10 @@
+
 html,body {
     height: 100%;
 }
 
 body {
-    font-size: $baseFontSize;
+    font-size: 18px;
     font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
@@ -15,14 +16,15 @@ body {
 .wrapper {
     position: relative;
     width: 100%;
-    min-width: $containerWidth + 20px;
+    min-width: 940px + 20px;
     min-height: 100%;
     overflow: hidden;
 }
 
 .container {
-    width: $containerWidth;
+    width: 940px;
     margin: 0 auto;
+    position: relative;
 }
 
 h1,h2,h3,h4,h5,h6 {

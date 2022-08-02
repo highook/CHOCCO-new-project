@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .section__title {
@@ -13,4 +14,21 @@
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+}
+.section--bacgraund--rasp {
+    position: relative;
+    
+    &:after {
+        position: absolute;
+        left: 0;
+        
+        content: url("/img/decor/leaf-opacity.png");
+    }
+
+    &:before {
+        position: absolute;
+        left: 0;
+        bottom: -100px;
+        content: url("/img/decor/rasp.png");
+    }
 }

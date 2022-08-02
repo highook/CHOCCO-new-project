@@ -13,4 +13,16 @@
   text-transform: uppercase;
   color: #000000; }
 
+.section--bacgraund--rasp {
+  position: relative; }
+  .section--bacgraund--rasp:after {
+    position: absolute;
+    left: 0;
+    content: url("/img/decor/leaf-opacity.png"); }
+  .section--bacgraund--rasp:before {
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    content: url("/img/decor/rasp.png"); }
+
 /*# sourceMappingURL=section.css.map */
