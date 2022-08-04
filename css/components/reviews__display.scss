@@ -1,6 +1,45 @@
+
+.section__reviews {
+    background: url(/img/decor/reviews-rasp.png) right top no-repeat;
+    position: relative;
+
+     
+     &:before {
+        content: url(/img/decor/reviews-leaf-bottom.png);
+        position: absolute;
+        left: 0;
+        bottom: -100px;
+     }
+
+     &:after {
+        content: url(/img/decor/reviews-rasp-bottom.png);
+        position: absolute;
+        left: 0;
+        bottom: -25px;
+     }
+}
+
+
+
 .reviews__display {
-background: #f8faf9;
     padding: 50px 45px 34px;
+    background: url(/img/decor/reviews-leaf.png) right top no-repeat;
+    background-color: #f8faf9;
+    overflow: hidden;
+    position: relative;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 90px;
+        height: 90px;
+        background: #fff;
+        border-radius: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -65px;
+        position: absolute;
+    }
 }
 
 .reviews__display-inner {
@@ -32,10 +71,16 @@ background: #f8faf9;
 
 .reviews__text {
     margin-bottom: 36px;
+    padding-right: 20%;
 }
 
 .reviews__author {
     font-size: 18px;
     font-weight: bold;
     color: black;
+}
+
+.reviews__switcher {
+    display: flex;
+    justify-content: center;
 }

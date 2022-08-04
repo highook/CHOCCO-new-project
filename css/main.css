@@ -257,9 +257,37 @@ img {
   font-weight: bold;
   color: #000000; }
 
+.section__reviews {
+  background: url(/img/decor/reviews-rasp.png) right top no-repeat;
+  position: relative; }
+  .section__reviews:before {
+    content: url(/img/decor/reviews-leaf-bottom.png);
+    position: absolute;
+    left: 0;
+    bottom: -100px; }
+  .section__reviews:after {
+    content: url(/img/decor/reviews-rasp-bottom.png);
+    position: absolute;
+    left: 0;
+    bottom: -25px; }
+
 .reviews__display {
-  background: #f8faf9;
-  padding: 50px 45px 34px; }
+  padding: 50px 45px 34px;
+  background: url(/img/decor/reviews-leaf.png) right top no-repeat;
+  background-color: #f8faf9;
+  overflow: hidden;
+  position: relative; }
+  .reviews__display:before {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -65px;
+    position: absolute; }
 
 .reviews__display-inner {
   display: flex; }
@@ -283,12 +311,17 @@ img {
   color: black; }
 
 .reviews__text {
-  margin-bottom: 36px; }
+  margin-bottom: 36px;
+  padding-right: 20%; }
 
 .reviews__author {
   font-size: 18px;
   font-weight: bold;
   color: black; }
+
+.reviews__switcher {
+  display: flex;
+  justify-content: center; }
 
 .interective-avatar {
   width: 80px;
@@ -313,5 +346,72 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
+
+.order-section {
+  background: url(/img/decor/order-bacgraund.png) center center no-repeat;
+  background-size: 100%; }
+
+.form {
+  display: flex; }
+
+.form__col {
+  flex: 1;
+  margin-right: 20px; }
+  .form__col:last-child {
+    margin-right: 0; }
+
+.form__row {
+  display: flex;
+  margin-bottom: 18px; }
+
+.form__block {
+  flex: 1;
+  margin-right: 20px; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.form__input {
+  width: 100%;
+  border: none;
+  padding: 18px 11px;
+  border: 3px solid transparent; }
+  .form__input--textarea {
+    height: 180px;
+    resize: none; }
+  .form__input:focus {
+    border-color: #dee2bd;
+    outline: none; }
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap; }
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  user-select: none; }
+
+.radio__elem {
+  display: none; }
+  .radio__elem:checked ~ .radio__visible:before {
+    display: block; }
+
+.radio__visible {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  border-radius: 50%;
+  background: #ffffff; }
+  .radio__visible:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #365a49;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=main.css.map */

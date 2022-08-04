@@ -1,0 +1,36 @@
+.form {
+  display: flex; }
+
+.form__col {
+  flex: 1;
+  margin-right: 20px; }
+  .form__col:last-child {
+    margin-right: 0; }
+
+.form__row {
+  display: flex;
+  margin-bottom: 18px; }
+
+.form__block {
+  flex: 1;
+  margin-right: 20px; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.form__input {
+  width: 100%;
+  border: none;
+  padding: 18px 11px;
+  border: 3px solid transparent; }
+  .form__input--textarea {
+    height: 180px;
+    resize: none; }
+  .form__input:focus {
+    border-color: #dee2bd;
+    outline: none; }
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap; }
+
+/*# sourceMappingURL=form.css.map */
