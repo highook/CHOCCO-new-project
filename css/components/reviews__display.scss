@@ -1,18 +1,18 @@
 
 .section__reviews {
-    background: url(/img/decor/reviews-rasp.png) right top no-repeat;
+    background: url(../img/decor/reviews-rasp.png) right top no-repeat;
     position: relative;
 
      
      &:before {
-        content: url(/img/decor/reviews-leaf-bottom.png);
+        content: url(../img/decor/reviews-leaf-bottom.png);
         position: absolute;
         left: 0;
         bottom: -100px;
      }
 
      &:after {
-        content: url(/img/decor/reviews-rasp-bottom.png);
+        content: url(../img/decor/reviews-rasp-bottom.png);
         position: absolute;
         left: 0;
         bottom: -25px;
@@ -23,7 +23,7 @@
 
 .reviews__display {
     padding: 50px 45px 34px;
-    background: url(/img/decor/reviews-leaf.png) right top no-repeat;
+    background: url(../img/decor/reviews-leaf.png) right top no-repeat;
     background-color: #f8faf9;
     overflow: hidden;
     position: relative;

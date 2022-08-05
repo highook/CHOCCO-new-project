@@ -8,7 +8,7 @@
   padding: 0 3%;
   position: relative; }
   .benefits__item:before {
-    content: url(/img/decor/separator.png);
+    content: url(../img/decor/separator.png);
     position: absolute;
     top: 50px;
     right: 0;

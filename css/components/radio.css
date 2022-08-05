@@ -8,7 +8,7 @@
     .radio--checkbox .radio__visible {
       border-radius: 5px; }
       .radio--checkbox .radio__visible:before {
-        background: url(/img/icon/tick.png) center center no-repeat; }
+        background: url(../img/icon/tick.png) center center no-repeat; }
 
 .radio__elem {
   display: none; }

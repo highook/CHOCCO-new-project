@@ -57,7 +57,7 @@ img {
   max-width: 100%; }
 
 .hero {
-  background: url("/img/decor/big-leaf.png") right bottom no-repeat;
+  background: url("../img/decor/big-leaf.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
   min-height: 650px;
@@ -67,12 +67,12 @@ img {
     position: absolute;
     bottom: -40px;
     left: 2%;
-    content: url("/img/decor/corner-leaf.png"); }
+    content: url("../img/decor/corner-leaf.png"); }
   .hero::after {
     position: absolute;
     bottom: -40px;
     right: 0;
-    content: url("/img/decor/Group-list.png"); }
+    content: url("../img/decor/Group-list.png"); }
 
 .hero__container {
   display: flex;
@@ -80,7 +80,7 @@ img {
   justify-content: space-between;
   height: 100%;
   padding: 24px 0 45px;
-  background: url("/img/decor/bars.png") right center/50% auto no-repeat; }
+  background: url("../img/decor/bars.png") right center/50% auto no-repeat; }
 
 .hero__title-section {
   width: 46%;
@@ -211,12 +211,12 @@ img {
   .section--bacgraund--rasp:after {
     position: absolute;
     left: 0;
-    content: url("/img/decor/leaf-opacity.png"); }
+    content: url("../img/decor/leaf-opacity.png"); }
   .section--bacgraund--rasp:before {
     position: absolute;
     left: 0;
     bottom: -100px;
-    content: url("/img/decor/rasp.png"); }
+    content: url("../img/decor/rasp.png"); }
 
 .headline {
   text-align: center;
@@ -238,7 +238,7 @@ img {
   padding: 0 3%;
   position: relative; }
   .benefits__item:before {
-    content: url(/img/decor/separator.png);
+    content: url(../img/decor/separator.png);
     position: absolute;
     top: 50px;
     right: 0;
@@ -281,22 +281,22 @@ img {
   color: #000000; }
 
 .section__reviews {
-  background: url(/img/decor/reviews-rasp.png) right top no-repeat;
+  background: url(../img/decor/reviews-rasp.png) right top no-repeat;
   position: relative; }
   .section__reviews:before {
-    content: url(/img/decor/reviews-leaf-bottom.png);
+    content: url(../img/decor/reviews-leaf-bottom.png);
     position: absolute;
     left: 0;
     bottom: -100px; }
   .section__reviews:after {
-    content: url(/img/decor/reviews-rasp-bottom.png);
+    content: url(../img/decor/reviews-rasp-bottom.png);
     position: absolute;
     left: 0;
     bottom: -25px; }
 
 .reviews__display {
   padding: 50px 45px 34px;
-  background: url(/img/decor/reviews-leaf.png) right top no-repeat;
+  background: url(../img/decor/reviews-leaf.png) right top no-repeat;
   background-color: #f8faf9;
   overflow: hidden;
   position: relative; }
@@ -371,7 +371,7 @@ img {
   object-fit: cover; }
 
 .order-section {
-  background: url(/img/decor/order-bacgraund.png) center center no-repeat;
+  background: url(../img/decor/order-bacgraund.png) center center no-repeat;
   background-size: 100%; }
 
 .form {
@@ -422,7 +422,7 @@ img {
     .radio--checkbox .radio__visible {
       border-radius: 5px; }
       .radio--checkbox .radio__visible:before {
-        background: url(/img/icon/tick.png) center center no-repeat; }
+        background: url(../img/icon/tick.png) center center no-repeat; }
 
 .radio__elem {
   display: none; }
