@@ -4,12 +4,31 @@
   padding: 21px 40px;
   text-transform: uppercase;
   border-radius: 100px;
-  line-height: 1; }
+  line-height: 1;
+  display: inline-block;
+  border: none; }
   .btn--theme--white {
     background: #fff;
     color: #0b4d3c; }
   .btn:hover {
     color: #fff;
     background: #0b4d3c; }
+  .btn--theme--green {
+    background: #0b4d3c;
+    color: #fff;
+    padding: 22px 40px;
+    font-size: 14px; }
+    .btn--theme--green:hover {
+      color: #0b4d3c;
+      background: #fff; }
+  .btn--theme--transparent {
+    background: transparent;
+    color: #000;
+    text-transform: none;
+    font-weight: normal;
+    padding: 19px; }
+    .btn--theme--transparent:hover {
+      background: transparent;
+      color: #0b4d3c; }
 
 /*# sourceMappingURL=btn.css.map */

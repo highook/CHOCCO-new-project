@@ -1,11 +1,18 @@
 .radio {
   display: flex;
   cursor: pointer;
-  user-select: none; }
+  user-select: none;
+  margin-right: 20px; }
+  .radio--checkbox {
+    margin-bottom: 25px; }
+    .radio--checkbox .radio__visible {
+      border-radius: 5px; }
+      .radio--checkbox .radio__visible:before {
+        background: url(/img/icon/tick.png) center center no-repeat; }
 
 .radio__elem {
   display: none; }
-  .radio__elem:checked ~ .radio__visible:before {
+  .radio__elem:checked + .radio__visible:before {
     display: block; }
 
 .radio__visible {
@@ -13,7 +20,8 @@
   height: 26px;
   position: relative;
   border-radius: 50%;
-  background: #ffffff; }
+  background: #ffffff;
+  margin-right: 12px; }
   .radio__visible:before {
     content: "";
     width: 14px;

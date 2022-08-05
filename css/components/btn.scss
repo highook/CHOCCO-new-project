@@ -5,6 +5,8 @@
     text-transform: uppercase;
     border-radius: 100px;
     line-height: 1;
+    display: inline-block;
+    border: none;
     
  
     &--theme--white {
@@ -15,5 +17,30 @@
     &:hover {
         color: #fff;
         background: #0b4d3c;
+    }
+
+    &--theme--green {
+        background: #0b4d3c;
+        color: #fff;
+        padding: 22px 40px;
+        font-size: 14px;
+
+        &:hover {
+            color:#0b4d3c;
+            background: #fff;
+        }
+    }
+
+    &--theme--transparent {
+        background: transparent;
+        color: #000;
+        text-transform: none;
+        font-weight: normal;
+        padding: 19px;
+
+        &:hover {
+            background: transparent;
+            color:#0b4d3c;
+        }
     }
 }

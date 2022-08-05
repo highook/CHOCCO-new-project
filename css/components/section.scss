@@ -5,6 +5,13 @@
     flex-direction: column;
     justify-content: center;
 
+    &--font-color--green {
+        color: #365A49;
+         
+        .section__title {
+            color: inherit;
+        }
+    }
 
 }
 

@@ -2,15 +2,31 @@
     display: flex;
     cursor: pointer;
     user-select: none;
+    margin-right: 20px;
+
+    &--checkbox {
+
+        margin-bottom: 25px;
+       
+    
+        .radio__visible {
+            border-radius: 5px;
+       
+            &:before {
+                background: url(/img/icon/tick.png) center center no-repeat;
+            }
+        }
+
+    }
 }
 
 .radio__elem {
     display: none;
 
-    &:checked ~ .radio__visible {
-        &:before {
+    &:checked + .radio__visible:before {
+        
             display: block;
-        }
+        
     }
 }
 
@@ -20,6 +36,7 @@
     position: relative;
     border-radius: 50%;
     background: #ffffff;
+    margin-right: 12px;
 
 
     &:before {

@@ -3,6 +3,9 @@ $darkGreen: #0b4d3c;
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+// z-indexs
+
+
 //normalaize
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
 
@@ -25,6 +28,7 @@ $baseFontSize: 18px;
 @import "components/order";
 @import "components/form";
 @import "components/radio";
+@import "components/fixed-menu";
 
 
 
