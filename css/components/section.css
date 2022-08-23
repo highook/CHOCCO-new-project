@@ -1,6 +1,6 @@
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -10,9 +10,9 @@
       color: inherit; }
 
 .section__title {
-  font-size: 48px;
+  font-size: rem(48px);
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: rem(60px);
   text-align: center;
   text-transform: uppercase;
   color: #000000; }
@@ -26,7 +26,7 @@
   .section--bacgraund--rasp:before {
     position: absolute;
     left: 0;
-    bottom: -100px;
+    bottom: rem(-100px);
     content: url("../img/decor/rasp.png"); }
 
 /*# sourceMappingURL=section.css.map */

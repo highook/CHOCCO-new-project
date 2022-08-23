@@ -1,9 +1,14 @@
+$blue: #61c4d9;
+$darkGreen: #0b4d3c;
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
 .features {
     display: flex;
 
 }
 .features__item {
-    margin-right: 43px;
+    margin-right: rem(43px);
 
     &:last-child {
         margin-right: 0;

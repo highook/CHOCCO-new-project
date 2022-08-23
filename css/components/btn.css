@@ -1,9 +1,9 @@
 .btn {
-  font-size: 17px;
+  font-size: rem(17px);
   font-weight: bold;
-  padding: 21px 40px;
+  padding: rem(21px) rem(40px);
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: rem(100px);
   line-height: 1;
   display: inline-block;
   border: none; }
@@ -16,8 +16,8 @@
   .btn--theme--green {
     background: #0b4d3c;
     color: #fff;
-    padding: 22px 40px;
-    font-size: 14px; }
+    padding: rem(22px) rem(40px);
+    font-size: rem(14px); }
     .btn--theme--green:hover {
       color: #0b4d3c;
       background: #fff; }
@@ -26,7 +26,7 @@
     color: #000;
     text-transform: none;
     font-weight: normal;
-    padding: 19px; }
+    padding: rem(19px); }
     .btn--theme--transparent:hover {
       background: transparent;
       color: #0b4d3c; }

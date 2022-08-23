@@ -1,7 +1,12 @@
+$blue: #61c4d9;
+$darkGreen: #0b4d3c;
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
 .interective-avatar {
-    width: 80px;
-    height: 80px;
-    border: 6px solid transparent;
+    width: rem(80px);
+    height: rem(80px);
+    border: rem(6px) solid transparent;
     border-radius: 50%;
     overflow: hidden;
     position: relative;

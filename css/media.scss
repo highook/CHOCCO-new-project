@@ -1,0 +1,29 @@
+$blue: #61c4d9;
+$darkGreen: #0b4d3c;
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+
+
+
+$tablets: 768px;
+$phones: 480px;
+
+
+
+
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
+@mixin tablets {
+  @media screen and (max-width: $tablets) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (max-width: $phones) {
+    @content;
+  }
+}

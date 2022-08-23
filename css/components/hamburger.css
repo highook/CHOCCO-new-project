@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 14 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hero.scss, in `tablets'
-        from line 14 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hero.scss
+        on line 9 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hamburger.scss, in `tablets'
+        from line 9 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hamburger.scss
 
-9:      height: 100vh;
-10:      min-height: rem(650px);
-11:      color: #fff;
-12:      position: relative;
+4:   display: inline-flex;
+5:   flex-direction: column;
+6:   justify-content: space-between;
+7:   display: none;
+8: 
+9:   @include tablets {
+10:     display: inline-flex;
+11:   }
+12: }
 13: 
-14:      @include tablets {
-15:         background-position: right bottom 90%;
-16:     } 
-17: 
-18:     &:before, &:after {
-19:         @include tablets {
+14: .hamburger__plank {
 
 Backtrace:
-C:\Users\Nikita\Desktop\CHOCCO\css\components\hero.scss:14:in `tablets'
-C:\Users\Nikita\Desktop\CHOCCO\css\components\hero.scss:14
+C:\Users\Nikita\Desktop\CHOCCO\css\components\hamburger.scss:9:in `tablets'
+C:\Users\Nikita\Desktop\CHOCCO\css\components\hamburger.scss:9
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 14 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hero.scss, in `tablets'\A         from line 14 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hero.scss\A \A 9:      height: 100vh;\A 10:      min-height: rem(650px);\A 11:      color: #fff;\A 12:      position: relative;\A 13: \A 14:      @include tablets {\A 15:         background-position: right bottom 90%;\A 16:     } \A 17: \A 18:     &:before, &:after {\A 19:         @include tablets {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hamburger.scss, in `tablets'\A         from line 9 of C:\Users\Nikita\Desktop\CHOCCO\css\components\hamburger.scss\A \A 4:   display: inline-flex;\A 5:   flex-direction: column;\A 6:   justify-content: space-between;\A 7:   display: none;\A 8: \A 9:   @include tablets {\A 10:     display: inline-flex;\A 11:   }\A 12: }\A 13: \A 14: .hamburger__plank {"; }

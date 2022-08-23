@@ -5,15 +5,15 @@
     content: url(../img/decor/reviews-leaf-bottom.png);
     position: absolute;
     left: 0;
-    bottom: -100px; }
+    bottom: rem(-100px); }
   .section__reviews:after {
     content: url(../img/decor/reviews-rasp-bottom.png);
     position: absolute;
     left: 0;
-    bottom: -25px; }
+    bottom: rem(-25px); }
 
 .reviews__display {
-  padding: 50px 45px 34px;
+  padding: rem(50px) rem(45px) rem(34px);
   background: url(../img/decor/reviews-leaf.png) right top no-repeat;
   background-color: #f8faf9;
   overflow: hidden;
@@ -21,21 +21,21 @@
   .reviews__display:before {
     content: "";
     display: block;
-    width: 90px;
-    height: 90px;
+    width: rem(90px);
+    height: rem(90px);
     background: #fff;
     border-radius: 50%;
     left: 50%;
     transform: translateX(-50%);
-    top: -65px;
+    top: rem(-65px);
     position: absolute; }
 
 .reviews__display-inner {
   display: flex; }
 
 .reviews__avatar {
-  width: 254px;
-  height: 260px; }
+  width: rem(254px);
+  height: rem(260px); }
 
 .reviews__avatar {
   object-fit: cover;
@@ -43,16 +43,16 @@
   width: 100%; }
 
 .reviews__content {
-  margin-left: 20px; }
+  margin-left: rem(20px); }
 
 .reviews__title {
-  font-size: 30px;
+  font-size: rem(30px);
   font-weight: bold;
-  margin-bottom: 22px;
+  margin-bottom: rem(22px);
   color: black; }
 
 .reviews__text {
-  margin-bottom: 36px;
+  margin-bottom: rem(36px);
   padding-right: 20%; }
 
 .reviews__author {

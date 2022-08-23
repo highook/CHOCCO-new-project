@@ -1,29 +1,36 @@
-// $containerWidth: 940px;
-// $baseFontSize: 18px;
-
-// //colors
-// $blue: #61c4d9;
-// $darkGreen: #0b4d3c;
-
+$blue:#61c4d9;
+$darkGreen: #0b4d3c;
+$containerWidth: 940px;
+$baseFontSize: 18px;
 
 .hero {
     background: url("../img/decor/big-leaf.png") right bottom no-repeat;
-     background-color: #61c4d9;
+     background-color: $blue;
      height: 100vh;
-     min-height: 650px;
+     min-height: rem(650px);
      color: #fff;
      position: relative;
 
+     @include tablets {
+        background-position: right bottom 90%;
+    } 
+
+    &:before, &:after {
+        @include tablets {
+            display: none;
+        }
+    }
+
      &::before {
         position: absolute;
-        bottom: -40px;
+        bottom: rem(-40px);
         left: 2%;
         content: url("../img/decor/corner-leaf.png");
      }
 
      &::after {
         position: absolute;
-        bottom: -40px;
+        bottom: rem(-40px);
         right: 0;
         content: url("../img/decor/Group-list.png");
      }
@@ -33,8 +40,12 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 24px 0 45px;
+    padding: rem(24px) 0 rem(45px);
     background: url("../img/decor/bars.png") right center / 50% auto no-repeat;
+
+    @include tablets {
+        background: none;
+    }
 }
 
 .hero__title-section {
@@ -44,24 +55,45 @@
     justify-content: space-between;
     align-items: flex-start;
     
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:before {
+            content: url("../img/decor/hero-bars.png");
+        }
+    }
 
   }
 
 .hero__main-title {
-    font-size: 48px;
+    font-size: rem(48px);
     line-height: 1.25;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: rem(15px);
     text-transform: uppercase;
 }
 .hero__title-desc {
-    font-size: 21px;
-    margin-bottom: 28px;
+    font-size: rem(21px);
+    margin-bottom: rem(28px);
     padding-right: 15%;
+
+    @include tablets {
+        padding: 0 25%;
+    }
 }
 
 .hero__icon-section {
     display: flex;
-    max-width: 484px;
+    max-width: rem(484px);
     justify-content: space-between;
+
+    @include tablets {
+        display: none;
+    }
 }

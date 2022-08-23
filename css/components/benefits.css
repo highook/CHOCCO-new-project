@@ -10,7 +10,7 @@
   .benefits__item:before {
     content: url(../img/decor/separator.png);
     position: absolute;
-    top: 50px;
+    top: rem(50px);
     right: 0;
     transform: translateX(50%); }
   .benefits__item:first-child {

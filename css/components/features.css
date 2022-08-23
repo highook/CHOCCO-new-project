@@ -2,7 +2,7 @@
   display: flex; }
 
 .features__item {
-  margin-right: 43px; }
+  margin-right: rem(43px); }
   .features__item:last-child {
     margin-right: 0; }
 

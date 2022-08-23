@@ -1,9 +1,9 @@
 .headline {
   text-align: center;
-  margin-bottom: 49px; }
+  margin-bottom: rem(49px); }
 
 .headline__title {
-  margin-bottom: 14px; }
+  margin-bottom: rem(14px); }
 
 .headline__subtitle {
   padding: 0 28%; }
