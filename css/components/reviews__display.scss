@@ -3,6 +3,9 @@ $darkGreen: #0b4d3c;
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+$tablets: 768px;
+$phones: 480px;
+
 .section__reviews {
     background: url(../img/decor/reviews-rasp.png) right top no-repeat;
     position: relative;
@@ -48,21 +51,34 @@ $baseFontSize: 18px;
 
 .reviews__display-inner {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }
 
 .reviews__avatar {
     width: rem(254px);
     height: rem(260px);
+
+        @include tablets {
+        width: rem(130px);
+        height: rem(132px);
+        margin-bottom: rem(35px);
+        }
 }
 
-.reviews__avatar {
+.reviews__avatar-img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+         
 }
 
 .reviews__content {
-
+    flex: 1;
     margin-left: rem(20px);
 }
 
@@ -76,6 +92,10 @@ $baseFontSize: 18px;
 .reviews__text {
     margin-bottom: rem(36px);
     padding-right: 20%;
+
+    @include tablets {
+        padding-right: 0;
+    }
 }
 
 .reviews__author {

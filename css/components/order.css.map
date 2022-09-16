@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,cAAe;EACX,UAAU,EAAE,6DAA6D;EACzE,eAAe,EAAE,IAAI",
+"mappings": "AAAA,cAAe;EACX,UAAU,EAAE,qCAAqC;EACjD,eAAe,EAAE,IAAI",
 "sources": ["order.scss"],
 "names": [],
 "file": "order.css"

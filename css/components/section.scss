@@ -27,6 +27,10 @@ $baseFontSize: 18px;
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+
+    @include tablets {
+        margin-bottom: rem(30px);
+    }
 }
 .section--bacgraund--rasp {
     position: relative;
@@ -36,6 +40,9 @@ $baseFontSize: 18px;
         left: 0;
         
         content: url("../img/decor/leaf-opacity.png");
+        @include tablets {
+            top: rem(86px);
+        }
     }
 
     &:before {
