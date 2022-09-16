@@ -11,6 +11,10 @@ $baseFontSize: 18px;
     display: flex;
     justify-content: space-between;
     position: relative;
+
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .benefits__item {
@@ -18,12 +22,21 @@ $baseFontSize: 18px;
     padding: 0 3%;
     position: relative;
 
+    @include phones {
+        margin-bottom: rem(20px);
+        padding: 0;
+    }
+
     &:before {
         content: url(../img/decor/separator.png);
         position: absolute;
         top: rem(50px);
         right: 0;
         transform: translateX(50%);
+
+        @include phones {
+            display: none;
+        }
     }
 
     &:first-child {

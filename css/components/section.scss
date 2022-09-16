@@ -36,12 +36,16 @@ $baseFontSize: 18px;
     position: relative;
     
     &:after {
+        content: url("../img/decor/leaf-opacity.png");
         position: absolute;
         left: 0;
-        
-        content: url("../img/decor/leaf-opacity.png");
+       
         @include tablets {
             top: rem(86px);
+        }
+
+        @include phones {
+            display: none;
         }
     }
 
@@ -50,5 +54,9 @@ $baseFontSize: 18px;
         left: 0;
         bottom: rem(-100px);
         content: url("../img/decor/rasp.png");
+
+        @include phones {
+            display: none;
+        }
     }
 }

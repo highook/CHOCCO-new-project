@@ -19,4 +19,8 @@ $baseFontSize: 18px;
     @include tablets {
         padding: 0 20%;
     }
+
+    @include phones {
+        padding: 0 5%;
+    }
 }

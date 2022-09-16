@@ -65,7 +65,10 @@ $baseFontSize: 18px;
         text-align: center;
 
         &:before {
-            content: url("../img/decor/hero-bars.png");
+            content: "";
+            width: rem(316px);
+            height: rem(330px);
+            background: url("../img/decor/hero-bars.png") center center / contain no-repeat;
             margin-bottom: rem(12px);
         }
     }
@@ -86,6 +89,10 @@ $baseFontSize: 18px;
 
     @include tablets {
         padding: 0 25%;
+    }
+
+    @include phones {
+        padding: 0 16%;
     }
 }
 

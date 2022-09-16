@@ -10,8 +10,8 @@ Error: Undefined mixin 'tablets'.
 5:         padding: 0 17%;
 6:         flex-direction: column;
 7:     }
-8: }
-9: 
+8: 
+9:     @include phones {
 
 Backtrace:
 C:\Users\Nikita\Desktop\CHOCCO\css\components\form.scss:4:in `tablets'
@@ -64,4 +64,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 4 of C:\Users\Nikita\Desktop\CHOCCO\css\components\form.scss, in `tablets'\A         from line 4 of C:\Users\Nikita\Desktop\CHOCCO\css\components\form.scss\A \A 1: .form {\A 2:     display: flex;\A 3:     \A 4:     @include tablets {\A 5:         padding: 0 17%;\A 6:         flex-direction: column;\A 7:     }\A 8: }\A 9: "; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 4 of C:\Users\Nikita\Desktop\CHOCCO\css\components\form.scss, in `tablets'\A         from line 4 of C:\Users\Nikita\Desktop\CHOCCO\css\components\form.scss\A \A 1: .form {\A 2:     display: flex;\A 3:     \A 4:     @include tablets {\A 5:         padding: 0 17%;\A 6:         flex-direction: column;\A 7:     }\A 8: \A 9:     @include phones {"; }
